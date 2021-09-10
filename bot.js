@@ -100,7 +100,7 @@ async function whatsAsena () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
+${chalk.blue.italic('✪ Connecting to WhatsApp...')}`);
     });
     
 
@@ -110,7 +110,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         );
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing external plugins...')
+            chalk.blueBright.italic('✪ Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -136,7 +136,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Amalser working!')
+            chalk.green.bold('✅ Jc bot working!')
         );
     });
     
@@ -261,8 +261,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtu.be/RlSG4ZgPls0*' +
+                                await conn.sendMessage(conn.user.jid, '*_________JANIYA______*' +
+                                    '\n*🌀 Fallow me other wise chance to get erorr: https://www.instagram.com/janitha129?r=nametag*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
