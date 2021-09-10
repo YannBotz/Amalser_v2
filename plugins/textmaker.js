@@ -92,7 +92,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t27 = '4. Bir Neon Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
         t28 = 'Mezarlık Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
         t29 = 'Kupa Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
-        t30 = 'dark metal logo.' // https:// https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html
+        t30 = 'Wooden logo.' // https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html
     }
     else {
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
@@ -123,7 +123,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t27 = 'Makes a Fourth Neon-Themed Logo.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
         t28 = 'Makes a Cemetery Themed Logo.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
         t29 = 'Makes a Cup Themed Logo.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
-        t30 = 'Make a dark metal Logo.' // https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html
+        t30 = 'Make a Wooden Logo.' // https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html
     }
     var usage_cmd = ''
     var command_cmd = ''
@@ -164,7 +164,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd + '```.cup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '.cup JC BOT*\n\n' +
         command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Janiya*\n\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Janiya;*\n\n' +
-        command_cmd + '```.metal``` \n' + desc_cmd + t30 + '_\n' + usage_cmd + '.metal Janiya;*'
+        command_cmd + '```.wooden``` \n' + desc_cmd + t30 + '_\n' + usage_cmd + '.wooden Janiya;*'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
 Asena.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -798,9 +798,9 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
 
 }));
 
-Asena.addCommand({pattern: 'metal ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'wooden ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
 
-    thiccysapi.photooxy("https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html",
+    thiccysapi.photooxy("https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html",
 
         `${match[1]}`
 
