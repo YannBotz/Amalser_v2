@@ -92,7 +92,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t27 = '4. Bir Neon Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
         t28 = 'Mezarlık Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
         t29 = 'Kupa Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
-        t30 = 'dark metal logo.' // https://photooxy.com/league-of-kings/cool-league-of-kings-avatar-153.html
+        t30 = 'dark metal logo.' // https:// https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html
     }
     else {
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
@@ -123,7 +123,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t27 = 'Makes a Fourth Neon-Themed Logo.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
         t28 = 'Makes a Cemetery Themed Logo.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
         t29 = 'Makes a Cup Themed Logo.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
-        t30 = 'Make a dark metal Logo.' // https://photooxy.com/league-of-kings/cool-league-of-kings-avatar-153.html
+        t30 = 'Make a dark metal Logo.' // https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html
     }
     var usage_cmd = ''
     var command_cmd = ''
@@ -800,7 +800,7 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
 
 Asena.addCommand({pattern: 'metal ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
 
-    thiccysapi.photooxy("https://photooxy.com/league-of-kings/cool-league-of-kings-avatar-153.html",
+    thiccysapi.photooxy("https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html",
 
         `${match[1]}`
 
