@@ -128,7 +128,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
         usage_cmd = '📍 *Örnek:* _'
         command_cmd = '🔖 *Komut:* '
-        desc_cmd = '♦️*Açıklama:* _'
+        desc_cmd = '♦️*Janiya:* _'
     } else { 
         usage_cmd = '🐼 Example : *'
         command_cmd = '🍀 Command : '
