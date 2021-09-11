@@ -96,8 +96,8 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
     }
     else {
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
-        t2 = 'Makes Logo With Bear Icon.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
-        t3 = 'Makes Logo With Neon Effect.' // https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html
+        t2 = 'Makes Logo With Bear.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
+        t3 = 'Makes With Neon Effect.' // https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html
         t4 = 'Makes Logo Neon Effect.' // https://textpro.me/neon-text-effect-online-879.html
         t5 = 'Makes Lightning Themed Logo.' // https://textpro.me/thunder-text-effect-online-881.html
         t6 = 'Makes Joker Themed Logo.' // https://textpro.me/create-logo-joker-online-934.html
@@ -110,17 +110,17 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t13 = 'Makes The Avengers Logo.' // https://textpro.me/create-3d-avengers-logo-online-974.html
         t14 = 'Makes Logo With Glitch Effect.' // https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html
         t15 = 'Makes Graffiti Themed Logo.' // https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html
-        t16 = 'Makes a Second Graffiti Themed Logo.' // https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html
+        t16 = 'Makes Graffiti Themed Logo.' // https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html
         t17 = 'Makes Lion Themed Logo.' // https://textpro.me/create-lion-logo-mascot-online-938.html
-        t18 = 'Makes a Third Neon Themed Logo.' // https://textpro.me/neon-text-effect-online-963.html
+        t18 = 'Makes a Neon Themed Logo.' // https://textpro.me/neon-text-effect-online-963.html
         t19 = 'Makes Ice Themed Logo.' // https://textpro.me/ice-cold-text-effect-862.html
         t20 = 'Makes Space Themed Logo.' // https://textpro.me/create-space-3d-text-effect-online-985.html
-        t21 = 'Makes Logo With Smoke Effect.' // https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html
+        t21 = 'Makes Smoke Effect Logo.' // https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html
         t22 = 'Makes a Naruto Themed Logo.' // https://photooxy.com/manga-and-anime/make-naruto-banner-online-free-378.html
         t23 = 'Makes a Glow Themed Logo.' // https://photooxy.com/logo-and-text-effects/make-smoky-neon-glow-effect-343.html        
         t25 = 'Makes Flame Themed Logo.' // https://photooxy.com/logo-and-text-effects/realistic-flaming-text-effect-online-197.html
-        t26 = 'Makes a Harry Potter Themed Logo.' // https://photooxy.com/logo-and-text-effects/create-harry-potter-text-on-horror-background-178.html
-        t27 = 'Makes a Fourth Neon-Themed Logo.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
+        t26 = 'Makes a Harry Potter Logo.' // https://photooxy.com/logo-and-text-effects/create-harry-potter-text-on-horror-background-178.html
+        t27 = 'Makes a Neon-Themed Logo.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
         t28 = 'Makes a Cemetery Themed Logo.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
         t29 = 'Makes a Cup Themed Logo.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
         t30 = 'Make a Wooden Logo.' // https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html
@@ -137,33 +137,33 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd = '```╠◪ Command :``` '
         desc_cmd = '```╠◪ Description :``` '
     }
-    const msg = command_cmd + '```.devil``` \n' + desc_cmd + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n╠◪\n' +
-        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JC BOT*\n╠◪\n' +
-        command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf JC;BOT*\n╠◪\n' +
-        command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.neon JC BOT*\n\n' +
-        command_cmd + '```.future``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '.future JC BOT*\n\n' +
-        command_cmd + '```.2neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '.2neon JC BOT*\n\n' +
-        command_cmd + '```.3neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '.3neon JC BOT*\n\n' +
-        command_cmd + '```.light``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '.light JC BOT*\n\n' +
-        command_cmd + '```.joker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '.joker JC BOT*\n\n' +
-        command_cmd + '```.ninja``` \n' + desc_cmd + t7 + '_\n' + usage_cmd + '.ninja JC;BOT*\n\n' +
-        command_cmd + '```.glitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '.glitter JC BOT*\n\n' +
-        command_cmd + '```.bokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '.bokeh JC BOT*\n\n' +
-        command_cmd + '```.marvel``` \n' + desc_cmd + t11 + '_\n' + usage_cmd + '.marvel JC;BOT*\n\n' +
-        command_cmd + '```.2marvel``` \n' + desc_cmd + t12 + '_\n' + usage_cmd + '.2marvel JC;BOT*\n\n' +
-        command_cmd + '```.avengers``` \n' + desc_cmd + t13 + '_\n' + usage_cmd + '.avengers JC;BOT*\n\n' +
-        command_cmd + '```.graf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '.graf JC;BOT*\n\n' +
-        command_cmd + '```.2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '.2graf JC;BOT*\n\n' +       
-        command_cmd + '```.lion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '.lion JC;BOT*\n\n' +
-        command_cmd + '```.ice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '.ice JC BOT*\n\n' +
-        command_cmd + '```.space``` \n' + desc_cmd + t20 + '_\n' + usage_cmd + '.space JC;BOT*\n\n' +
-        command_cmd + '```.smoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '.smoke JC BOT*\n\n' + // Thanks for @Unique_hunter for base.
-        command_cmd + '```.glow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '.glow JC BOT*\n\n' +
-        command_cmd + '```.fire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '.fire JC BOT*\n\n' +
-        command_cmd + '```.harry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '.harry JC BOT*\n\n' +
-        command_cmd + '```.cup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '.cup JC BOT*\n\n' +
-        command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Janiya*\n\n' +
-        command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Janiya;*\n\n' +
+    const msg = command_cmd + '```.devil``` \n' + desc_cmd + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n║\n' +
+        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JC BOT*\n║\n' +
+        command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf JC;BOT*\n║\n' +
+        command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.neon JC BOT*\n║\n' +
+        command_cmd + '```.future``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '.future JC BOT*\n║\n' +
+        command_cmd + '```.2neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '.2neon JC BOT*\n║\n' +
+        command_cmd + '```.3neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '.3neon JC BOT*\n║\n' +
+        command_cmd + '```.light``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '.light JC BOT*\n║\n' +
+        command_cmd + '```.joker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '.joker JC BOT*\n║\n' +
+        command_cmd + '```.ninja``` \n' + desc_cmd + t7 + '_\n' + usage_cmd + '.ninja JC;BOT*\n║\n' +
+        command_cmd + '```.glitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '.glitter JC BOT*\n║\n' +
+        command_cmd + '```.bokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '.bokeh JC BOT*\n║\n' +
+        command_cmd + '```.marvel``` \n' + desc_cmd + t11 + '_\n' + usage_cmd + '.marvel JC;BOT*\n║\n' +
+        command_cmd + '```.2marvel``` \n' + desc_cmd + t12 + '_\n' + usage_cmd + '.2marvel JC;BOT*\n║\n' +
+        command_cmd + '```.avengers``` \n' + desc_cmd + t13 + '_\n' + usage_cmd + '.avengers JC;BOT*\n║\n' +
+        command_cmd + '```.graf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '.graf JC;BOT*\n║\n' +
+        command_cmd + '```.2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '.2graf JC;BOT*\n║\n' +       
+        command_cmd + '```.lion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '.lion JC;BOT*\n║\n' +
+        command_cmd + '```.ice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '.ice JC BOT*\n║\n' +
+        command_cmd + '```.space``` \n' + desc_cmd + t20 + '_\n' + usage_cmd + '.space JC;BOT*\n║\n' +
+        command_cmd + '```.smoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '.smoke JC BOT*\n║\n' + // Thanks for @Unique_hunter for base.
+        command_cmd + '```.glow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '.glow JC BOT*\n║\n' +
+        command_cmd + '```.fire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '.fire JC BOT*\n║\n' +
+        command_cmd + '```.harry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '.harry JC BOT*\n║\n' +
+        command_cmd + '```.cup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '.cup JC BOT*\n║\n' +
+        command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Janiya*\n║\n' +
+        command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Janiya;*\n║\n' +
         command_cmd + '```.wooden``` \n' + desc_cmd + t30 + '_\n' + usage_cmd + '.wooden Janiya;*'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
