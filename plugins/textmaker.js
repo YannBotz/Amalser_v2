@@ -137,9 +137,9 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd = '```╠◪ Command :``` '
         desc_cmd = '```╠◪ Description :``` '
     }
-    const msg = command_cmd + '```.devil``` \n' + desc_cmd + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n\n╠◪' +
-        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JC BOT*\n\n' +
-        command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf JC;BOT*\n\n' +
+    const msg = command_cmd + '```.devil``` \n' + desc_cmd + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n╠◪\n' +
+        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JC BOT*\n╠◪\n' +
+        command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf JC;BOT*\n╠◪\n' +
         command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.neon JC BOT*\n\n' +
         command_cmd + '```.future``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '.future JC BOT*\n\n' +
         command_cmd + '```.2neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '.2neon JC BOT*\n\n' +
