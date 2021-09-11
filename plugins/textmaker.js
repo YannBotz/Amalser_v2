@@ -98,14 +98,14 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
         t2 = 'Makes Logo With Bear Icon.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
         t3 = 'Makes Logo With Neon Effect.' // https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html
-        t4 = 'Makes Logo With Second Neon Effect.' // https://textpro.me/neon-text-effect-online-879.html
+        t4 = 'Makes Logo Neon Effect.' // https://textpro.me/neon-text-effect-online-879.html
         t5 = 'Makes Lightning Themed Logo.' // https://textpro.me/thunder-text-effect-online-881.html
         t6 = 'Makes Joker Themed Logo.' // https://textpro.me/create-logo-joker-online-934.html
         t7 = 'Makes Ninja Themed Logos.' // https://textpro.me/create-ninja-logo-online-935.html
         t8 = 'Makes Glitter Themed Logo.' // https://textpro.me/advanced-glow-text-effect-873.html
         t9 = 'Makes Logo With Bokeh Effect.' // https://textpro.me/bokeh-text-effect-876.html
         t10 = 'Makes Logo With Wolf Icon.' // https://textpro.me/create-wolf-logo-galaxy-online-936.html
-        t11 = 'Makes Black And White Marvel Logo.' // https://textpro.me/create-logo-style-marvel-studios-online-971.html
+        t11 = 'Makes Black And White Logo.' // https://textpro.me/create-logo-style-marvel-studios-online-971.html
         t12 = 'Makes Colorful Marvel Logo.' // https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html
         t13 = 'Makes The Avengers Logo.' // https://textpro.me/create-3d-avengers-logo-online-974.html
         t14 = 'Makes Logo With Glitch Effect.' // https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html
@@ -133,11 +133,11 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd = '🔖 *Komut:* '
         desc_cmd = '♦️*Janiya:* _'
     } else { 
-        usage_cmd = '🐼 Example : *'
-        command_cmd = '📚 Command : '
-        desc_cmd = '🌈 Description : '
+        usage_cmd = '```╠◪ Example :``` *'
+        command_cmd = '```╠◪ Command :``` '
+        desc_cmd = '```╠◪ Description :``` '
     }
-    const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n\n' +
+    const msg = command_cmd + '```.devil``` \n' + desc_cmd + t1 + '_\n' + usage_cmd + '.textdevil JC BOT*\n\n' +
         command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JC BOT*\n\n' +
         command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf JC;BOT*\n\n' +
         command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.neon JC BOT*\n\n' +
