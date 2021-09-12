@@ -2570,7 +2570,7 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true,
     await message.client.sendMessage(message.jid, fin, MessageType.text);
 }));
 
-Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.SPAM_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'bug ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.SPAM_DESC}, (async (message, match) => {
 
 				if (!isOwner) return reply(mess.only.ownerB)
 
