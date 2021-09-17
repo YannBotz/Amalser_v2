@@ -25,7 +25,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *githublink : https://github.com/JanithaChathuranga/Amalser_v2*
 
-*Fallow Me Insta : https://www.instagram.com/janitha129?r=nametag*
+*Fallow : https://www.instagram.com/janitha129?r=nametag*
 `}) 
 
 }));
