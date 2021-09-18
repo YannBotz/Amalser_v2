@@ -97,6 +97,7 @@ async function whatsAsena () {
             await WhatsAsenaCN.setStatus(biography)
 
         }
+        };
 
     conn.on ('credentials-updated', async () => {
         console.log(
