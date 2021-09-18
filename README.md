@@ -34,7 +34,7 @@ Project created by <a href="https://github.com/cyberchekuthan">Amalser_v2</a> to
 GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
-$ git clone https://github.com/cyberchekuthan/Amalser_v2
+$ git clone https://github.com/JanithaChathuranga/Amalser_v2
 $ cd Amalser_v2
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -43,7 +43,7 @@ $ node julie.js
       
 ```js
 SETUP
-$ git clone https://github.com/cyberchekuthan/Amalser_v2
+$ git clone https://github.com/JanithaChathuranga/Amalser_v2
 $ cd Amalser_v2
 $ npm i
 $ node julie.js
