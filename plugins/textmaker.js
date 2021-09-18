@@ -171,7 +171,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Janiya*\n║\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Janiya;*\n║\n' +
         command_cmd + '```.wooden``` \n' + desc_cmd + t30 + '_\n' + usage_cmd + '.wooden Janiya;*\n║\n' +
-        command_cmd + '```.pornhub``` \n' + desc_cmd + t31 + '_\n' + usage_cmd + '.pornhub Janiya;*\n║\n +
+        command_cmd + '```.pornhub``` \n' + desc_cmd + t31 + '_\n' + usage_cmd + '.pornhub Janiya;*\n║\n' +
         command_cmd + '```.frame``` \n' + desc_cmd + t32 + '_\n' + usage_cmd + '.frame Photo;*'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
