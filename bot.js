@@ -82,6 +82,21 @@ async function whatsAsena () {
     } else {
         conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
     }
+    asynchronous_ch()
+
+    setInterval(async () => { 
+
+        if (config.AUTOBIO == 'true') {
+
+            var timezone_bio = await WhatsAsenaStack.timezone(WhatsAsenaCN.user.jid)
+
+            var date_bio = await WhatsAsenaStack.datebio(config.LANG)
+
+            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio
+
+            await WhatsAsenaCN.setStatus(biography)
+
+        }
 
     conn.on ('credentials-updated', async () => {
         console.log(
