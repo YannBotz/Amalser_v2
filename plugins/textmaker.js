@@ -64,6 +64,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
     var t29 = ''
     var t30 = ''
     var t31 = ''
+    var t32 = ''
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
         t1 = 'Şeytan Temalı Logo Yapar.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
         t2 = 'Ayı İkonu İçeren Logo Yapar.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
@@ -95,6 +96,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t29 = 'Kupa Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
         t30 = 'Wooden logo.' // https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html
         t31 = 'Pornhub logo.' // https://textpro.me/pornhub-style-logo-online-generator-free-977.html
+        t32 = 'Photo Frame.' // https://photooxy.com/photo-frames/camera-photo-frame-359.html
     }
     else {
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
@@ -127,6 +129,7 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         t29 = 'Makes a Cup Themed Logo.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
         t30 = 'Make a Wooden Logo.' // https://photooxy.com/logo-and-text-effects/writing-on-wooden-boards-368.html
         t31 = 'Make a Pornhub logo.' // https://textpro.me/pornhub-style-logo-online-generator-free-977.html
+        t32 = 'Make a Frame Photo.' // https://photooxy.com/photo-frames/camera-photo-frame-359.html
     }
     var usage_cmd = ''
     var command_cmd = ''
@@ -168,7 +171,8 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery Janiya*\n║\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Janiya;*\n║\n' +
         command_cmd + '```.wooden``` \n' + desc_cmd + t30 + '_\n' + usage_cmd + '.wooden Janiya;*\n║\n' +
-        command_cmd + '```.pornhub``` \n' + desc_cmd + t31 + '_\n' + usage_cmd + '.pornhub Janiya bot;*'
+        command_cmd + '```.pornhub``` \n' + desc_cmd + t31 + '_\n' + usage_cmd + '.pornhub Janiya;*\n║\n +
+        command_cmd + '```.frame``` \n' + desc_cmd + t32 + '_\n' + usage_cmd + '.frame Photo;*'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
 Asena.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -860,6 +864,41 @@ Asena.addCommand({pattern: 'pornhub ?(.*)', fromMe: wk, dontAddCommandList: true
               await download(`${data}`, '/root/WhatsAsenaDuplicated/pornhub.jpg', async() => {                          
 
                   await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/pornhub.jpg'), MessageType.image, { caption: Config.AFN })
+
+              })
+
+          } catch(err) { 
+
+              console.log(err)
+
+          } 
+
+    });
+
+}));
+Asena.addCommand({pattern: 'frame ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+
+    thiccysapi.textpro("https://photooxy.com/photo-frames/camera-photo-frame-359.html",
+
+        `${match[1]}`
+
+        ).then(async (data) => { 
+
+          try { 
+
+              var download = async(uri, filename, callback) => {
+
+                  await request.head(uri, async(err, res, body) => {    
+
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+
+                  });
+
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/frame.jpg', async() => {                          
+
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/frame.jpg'), MessageType.image, { caption: Config.AFN })
 
               })
 
