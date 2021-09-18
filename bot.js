@@ -82,22 +82,7 @@ async function whatsAsena () {
     } else {
         conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value));
     }
-    asynchronous_ch()
-
-    setInterval(async () => { 
-
-        if (config.AUTOBIO == 'true') {
-
-            var timezone_bio = await WhatsAsenaStack.timezone(WhatsAsenaCN.user.jid)
-
-            var date_bio = await WhatsAsenaStack.datebio(config.LANG)
-
-            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio
-
-            await WhatsAsenaCN.setStatus(biography)
-
-        }
-        },
+    
 
     conn.on ('credentials-updated', async () => {
         console.log(
@@ -277,7 +262,7 @@ ${chalk.blue.italic('✪ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*_________JANIYA______*' +
+                                await conn.sendMessage(conn.user.jid, '*「👾 ᴊᴀɴɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟ ʙᴏᴛ 👾」*' +
                                     '\n*🌀 Fallow me other wise chance to get erorr: https://www.instagram.com/janitha129?r=nametag*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
