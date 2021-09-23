@@ -431,28 +431,28 @@ else if (Config.WORKTYPE == 'public') {
                             HANDLER = '.';
                         }
                         if (command.desc == '' && !command.usage == '' && command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + Lang.EXAMPLE + ': ```' + command.usage + '```\n\n';
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + Lang.EXAMPLE + ': ```' + command.usage + '```\n\n';
                         }
                         if (!command.desc == '' && command.usage == '' && command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n\n';
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n\n';
                         }
                         if (command.desc == '' && command.usage == '' && !command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.warn + '```\n\n'
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.warn + '```\n\n'
                         }
                         if (!command.desc == '' && !command.usage == '' && command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                         }
                         if (!command.desc == '' && command.usage == '' && !command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                         }
                         if (command.desc == '' && !command.usage == '' && !command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + ' ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + ' ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                         }
                         if  (command.desc == '' && command.usage == '' && command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n\n'
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n\n'
                         }
                         if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
-                            CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                            CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                         }
                     }
                 }
@@ -486,28 +486,28 @@ else if (Config.WORKTYPE == 'public') {
                         HANDLER = '.';
                     }
                     if (command.desc == '' && !command.usage == '' && command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + Lang.EXAMPLE + ': ```' + command.usage + '```\n\n';
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + Lang.EXAMPLE + ': ```' + command.usage + '```\n\n';
                     }
                     if (!command.desc == '' && command.usage == '' && command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n\n';
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n\n';
                     }
                     if (command.desc == '' && command.usage == '' && !command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.warn + '```\n\n'
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.warn + '```\n\n'
                     }
                     if (!command.desc == '' && !command.usage == '' && command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                     }
                     if (!command.desc == '' && command.usage == '' && !command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                     }
                     if (command.desc == '' && !command.usage == '' && !command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + ' ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💌 ' + ' ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                     }
                     if  (command.desc == '' && command.usage == '' && command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n\n'
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n\n'
                     }
                     if  (!command.desc == '' && !command.usage == '' && !command.warn == '') {
-                        CMD_HELP += '🌀 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
+                        CMD_HELP += '👾 ' + (match.length >= 3 ? (HANDLER + mmatch) : command.pattern) + '\n' + '💘 ' + ' ```' + command.desc + '``` \n' + '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n' + '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n'
                     }
                 }
             );
