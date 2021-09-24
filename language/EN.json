@@ -202,8 +202,8 @@
             "UPLOADING_SONG": "*Uploading*",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "*❲ ❗ ❳ Downloading Video...*",
-            "UPLOADING_VIDEO": "*❲🚫❳ Uploading Video...*",
+            "DOWNLOADING_VIDEO": "```❲ ❗ ❳ Downloading Video...```",
+            "UPLOADING_VIDEO": "```❲ ❕ ❳ Uploading Video...```",
             "LOADING": "*Downloading video*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
@@ -217,7 +217,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Converting..✄☆```"
+            "DOWNLOADING": "```Converting...🛒```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -244,8 +244,8 @@
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "Updating..💌",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*Updated ✅️*",
-            "UPDATED_LOCAL": "*✅ Updated!*",
+            "UPDATED": "*🛒 Updated...*",
+            "UPDATED_LOCAL": "*🔖 Updated!*",
             "AFTER_UPDATE": "*Jc Bot Restarting ✅️*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
