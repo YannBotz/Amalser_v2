@@ -9,11 +9,11 @@
 <img src="https://media.giphy.com/media/26FLdmIp6wJr91JAI/giphy.gif?cid=ecf05e47mcqq04k1wdzifu80kqr8gvvza605e58k0w9s7tr4&rid=giphy.gif&ct=g.gif" alt="GIF" width="300" height="250"/>
 </p>
   <p align="center">
-<a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-Amal-cyberchekuthan/Amalser_v2?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/JanithaChathuranga/Amalser_v2"><img title="Author" src="https://img.shields.io/badge/Author-Amal-cyberchekuthan/Amalser_v2?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/cyberchekuthan">Janiya</a> to make it public
+Project created by <a href="https://github.com/JanithaChathuranga">Janiya</a> to make it public
     <br>
        | © |
         Reserved |
