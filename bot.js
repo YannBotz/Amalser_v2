@@ -127,7 +127,7 @@ ${chalk.blue.italic('✪ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⬇️Installing plugins...')
+            chalk.blueBright.italic('🔖 Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -263,8 +263,10 @@ ${chalk.blue.italic('✪ Connecting to WhatsApp...')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*「👾 ᴊᴀɴɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟ ʙᴏᴛ 👾」*' +
-                                    '\n*🌀 Fallow me other wise chance to get erorr: https://www.instagram.com/janitha129?r=nametag*' +
-                                    '\n\n*⚠️ ' + error + '*\n'
+                                    '\n*🔖 Fallow me other wise chance to get erorr: https://www.instagram.com/janitha129?r=nametag*' +
+                                    '\n\n*🔖 Send Massage Whatsapp: https://wa.me/94703767171*' +
+                                    '\n\n*🔖Name: Janitha Chathuranga*' +
+                                    '\n\n*❲⚠️❳ ' + error + '*\n'
                                     , MessageType.text);
                             }
                         }
