@@ -303,3 +303,19 @@ else if (config.WORKTYPE == 'public') {
   });
 
 }
+Asena.addCommand({pattern: 'play ?(.*)', fromMe: true, desc: Lang.HMODD_DESC, dontAddCommandList: true }, async (message, match) => {
+	  if (match[1] === '') return await message.reply(Lang.NEED_APPNAME);
+	  const url = `https://zenzapi.xyz/api/play/playmp3?q=${match[1]}&apikey=9c1c50beb86e`;
+	  try {
+		  const response = await got(url);
+		  const json = JSON.parse(response.body);
+		  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, 
+		  '*📕 ' + Lang.CHANEL +'* ```' + json.result[0].title + '```\n\n' + 
+		  '*📘 ' + Lang.VIWES +'* ```' + json.result[0].size + '```\n\n\n' + 
+		'*📕 ' + Lang.PUBLIC +'* ```' + json.result[0].publish + '```\n\n' +								   
+		  '*📗 ' + Lang.URL +':* ```' + json.result[0].link + '```\n', MessageType.text);
+	  } catch {
+		  return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
+	  }
+  });
+}
