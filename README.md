@@ -88,7 +88,15 @@ $ node julie.js
 ```
 
 ----
+<div align="center">
 
+ <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg">
+
+ 
+
+ <div align="left">
+  
+  
   <p align="center">
   <a href="httsp://github.com/farhan-dqz/JulieMwol">
     
