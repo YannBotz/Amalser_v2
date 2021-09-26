@@ -8,7 +8,7 @@ const Language = require('../language');
 
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'janiya', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
 
