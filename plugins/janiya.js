@@ -6,7 +6,7 @@ const axios = require('axios');
 
 const Language = require('../language');
 
-const Lang = Language.getString('wallpaper');
+const Lang = Language.getString('janiya');
 
 Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
