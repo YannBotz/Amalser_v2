@@ -54,7 +54,6 @@ Project created by <a href="https://github.com/JanithaChathuranga">Janiya</a> to
 
 ___
 
-![Zhirrr github stats](https://github-readme-stats.vercel.app/api?username=KiZakiXD&show_icons=true&theme=tokyonight)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KiZakiXD&hide=css,html&theme=tokyonight)
 
