@@ -88,7 +88,7 @@ else if (Config.WORKTYPE == 'public') {
 		    fs.createWriteStream('rbg.png')
         );
     
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.png); //, {filename: 'Janiya.png', mimetype: Mimetype.png});
+        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.png, {filename: 'Janiya.png', mimetype: Mimetype.png});
         await load.delete();
     }));
     
