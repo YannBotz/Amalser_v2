@@ -55,7 +55,7 @@ Project created by <a href="https://github.com/JanithaChathuranga">Janiya</a> to
 ___
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KiZakiXD&hide=css,html&theme=tokyonight)
+#janiya botz
 
 ## Setup
 <div align="center">
