@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN https://github.com/JanithaChathuranga/Botz-2.git /root/WhatsAsenaDuplicated
+RUN https://github.com/JanithaChathuranga/Botz-2 /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
